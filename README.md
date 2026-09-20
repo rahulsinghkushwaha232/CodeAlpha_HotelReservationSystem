@@ -1,9 +1,46 @@
-# Hotel Reservation System
+# CodeAlpha_HotelReservationSystem 🏨
 
-A menu-driven Java console application built for the CodeAlpha internship. It manages room availability, guest bookings, payments, cancellations, checkout, and local reservation persistence.
+A clean, menu-driven Java console application developed for the CodeAlpha Software Development Internship. The Hotel Reservation System lets hotel staff search rooms, create bookings, simulate payments, manage cancellations and check-outs, and preserve reservation data between application runs.
 
 **Developed by:** Rahul Singh Kushwaha  
 **GitHub:** [@rahulsinghkushwaha232](https://github.com/rahulsinghkushwaha232)
+
+---
+
+## 📌 Project Overview
+
+- **Internship:** CodeAlpha Software Development Internship
+- **Project Name:** Hotel Reservation System
+- **Language:** Java (JDK 17+)
+- **Architecture:** Object-Oriented Programming (OOP)
+- **Package:** `com.codealpha.hotelreservation`
+- **Application Type:** Menu-driven console application
+
+---
+
+## ✨ Key Features
+
+1. **Room Search with Date Validation**
+   - Searches Standard, Deluxe, and Suite rooms for selected check-in and check-out dates.
+   - Prevents double-booking by applying correct date-overlap validation.
+
+2. **Complete Booking Workflow**
+   - Captures guest contact details, calculates nights and total cost, then requests confirmation.
+   - Generates a unique reservation ID and a simulated payment receipt.
+
+3. **Reservation Management**
+   - View individual reservation details or all reservations in an aligned console table.
+   - Cancel active bookings and check out guests easily.
+
+4. **File-Based Persistence**
+   - Saves reservations in `reservations.dat` on exit.
+   - Automatically restores saved reservations when the application starts.
+
+5. **Robust Input Handling**
+   - Validates room categories, menu choices, date format, and stay duration.
+   - Handles invalid input without crashing the application.
+
+---
 
 ## Features
 
@@ -21,6 +58,23 @@ A menu-driven Java console application built for the CodeAlpha internship. It ma
 - **Enums:** room category, payment status, and reservation status are constrained types
 - **Collections:** `ArrayList` stores the inventory and reservations
 - **Exception handling:** scanner, date parsing, and file I/O errors are handled without crashing
+
+## 📁 Project Structure
+
+```text
+CodeAlpha_HotelReservationSystem/
+├── src/com/codealpha/hotelreservation/
+│   ├── HotelReservationSystem.java
+│   ├── Hotel.java
+│   ├── Room.java
+│   ├── Guest.java
+│   ├── Reservation.java
+│   ├── PaymentSimulator.java
+│   └── enums for room, payment, and reservation status
+├── README.md
+├── LICENSE
+└── HotelReservationSystem.jar
+```
 
 ## Compile and Run
 
