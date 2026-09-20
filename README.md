@@ -2,6 +2,9 @@
 
 A menu-driven Java console application built for the CodeAlpha internship. It manages room availability, guest bookings, payments, cancellations, checkout, and local reservation persistence.
 
+**Developed by:** Rahul Singh Kushwaha  
+**GitHub:** [@rahulsinghkushwaha232](https://github.com/rahulsinghkushwaha232)
+
 ## Features
 
 - Fifteen preloaded Standard, Deluxe, and Suite rooms
@@ -41,9 +44,9 @@ Check-in date (dd-MM-yyyy): 10-10-2026
 Check-out date (dd-MM-yyyy): 12-10-2026
 Available room numbers: [201, 202, 203, 204, 205]
 Select room number: 201
-Guest name: Priya Sharma
+Guest name: Rahul Singh
 Phone: 9876543210
-Email: priya@example.com
+Email: rahul@example.com
 
 Booking summary: 2 night(s) x Rs. 4000.00 = Rs. 8000.00
 Confirm booking and payment? (Y/N): Y
